@@ -10,7 +10,8 @@ All updates to this repository will be documented below
 
 ## October 2024
 - [ ] Greedy Algorithm
-  - [X] Chapter 03 Completed
+  - [ ] Chapter 03 Completed
+  - [ ] BOJ Completed
 - [ ] Implementation
 - [ ] DFS
 - [ ] BFS
