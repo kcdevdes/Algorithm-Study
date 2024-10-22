@@ -8,10 +8,10 @@
 """
 11
 1 4
+3 8
 3 5
 0 6
 5 7
-3 8
 5 9
 6 10
 8 11
@@ -22,20 +22,30 @@
 => (1,4), (5,7), (8,11), (12,14) 4
 """
 
+"""
+6
+1 3
+1 5
+3 10
+5 7
+7 9
+10 12
+
+(1, 5), (5, 7), (7, 9), (10, 12) 4
+"""
+
 n = int(input())
 data = []
-answer = []
 
 for _ in range(n):
     data.append(list(map(int, input().split())))
 
-data.sort(key=lambda x: x[0])
-for count, time in enumerate(data):
-    schedule=[]
-    time_s = time[0]
-    time_e = time[1]
-    schedule.append(time)
-
-    # TODO : O(n)으로 풀이해야함.
+data.sort(key = lambda x: (x[1], x[0]))
+answer = [data[0]]
+for i in range(1, len(data)):
+    end_time = answer[-1][1]
+    start_time = data[i][0]
+    if end_time <= start_time:
+        answer.append(data[i])
 
 print(answer)
