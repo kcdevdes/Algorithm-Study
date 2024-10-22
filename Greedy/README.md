@@ -7,3 +7,4 @@
   - 아니면, 다이나믹 프로그래밍이 될 수 있을 것이다.
 ## 문제
 - [X] [동전 0](https://www.acmicpc.net/problem/11047)
+- [X] [ATM](https://www.acmicpc.net/problem/11399)
