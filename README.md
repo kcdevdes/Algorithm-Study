@@ -13,6 +13,8 @@ All updates to this repository will be documented below
   - [X] Chapter 03 Completed [Oct 23, 2024]
   - [X] BOJ Basic Greedy Problem Set Completed [Oct 22, 2024]
 - [ ] Implementation
+  - [ ] Chapter 04 Completed
+  - [ ] BOJ Basic Implementation Problem Set Completed
 - [ ] DFS
 - [ ] BFS
 - [ ] Sort
