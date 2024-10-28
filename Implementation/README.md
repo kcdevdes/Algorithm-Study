@@ -14,3 +14,5 @@
 
 일반적으로 이런 문제들은 적기 때문에 리스트 제약이 미친 듯이 많은 환경에서 유용하게 활용해보자.
 ## 문제
+- [X] [단어 뒤집기2](https://www.acmicpc.net/problem/17413)
+- [x] [오리](https://www.acmicpc.net/problem/12933)
